@@ -1,18 +1,17 @@
-
-Body{
+body {
     background-color: goldenrod;
-   margin-top: 10rem;
-
+    margin-top: 10rem;
+    font-family: Arial, sans-serif;
 }
-.joke-Body{
-    
+
+.joke-Body {
     background-color: white;
     display: block;
     align-items: center;
     justify-content: center;
-   margin: auto;
-   padding-left: 15px;
-   width: 100vh;
+    margin: auto;
+    padding-left: 15px;
+    width: 100vh;
     height: 250px;
     border: none;
     border-radius: 1rem;
@@ -20,20 +19,22 @@ Body{
     margin-bottom: 1rem;
     box-shadow: 0px 10px 80px rgb(0, 0, 0);
 }
-h1{
-    color:cadetblue;
+
+h1 {
+    color: cadetblue;
 }
-.jokeValue{
+
+.jokeValue {
     font-size: 1.5rem;
-   font-weight: bolder;
+    font-weight: bolder;
 }
-.btn{
-    
+
+.btn {
     font-size: 15px;
     font-weight: 800;
     width: 150px;
     height: 40px;
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -41,7 +42,35 @@ h1{
     cursor: pointer;
     border: none;
 }
-.btn:hover{
-    background-color: salmon;
 
+.btn:hover {
+    background-color: salmon;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 600px) {
+    body {
+        margin-top: 5rem;
+    }
+
+    .joke-Body {
+        width: fit-content; /* Reduce the width for smaller screens */
+        height: auto; /* Allow the height to adjust dynamically */
+        padding: 1rem; /* Add padding for better spacing */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Slightly reduce the font size for the title */
+    }
+
+    .jokeValue {
+        font-size: 1.2rem; /* Reduce the font size for the joke text */
+    }
+
+    .btn {
+        margin: auto;
+        width: 120px; /* Adjust button size */
+        height: 35px;
+        font-size: 14px;
+    }
 }
