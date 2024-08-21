@@ -1,0 +1,47 @@
+
+Body{
+    background-color: goldenrod;
+   margin-top: 10rem;
+
+}
+.joke-Body{
+    
+    background-color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+   margin: auto;
+   padding-left: 15px;
+   width: 100vh;
+    height: 250px;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    box-shadow: 0px 10px 80px rgb(0, 0, 0);
+}
+h1{
+    color:cadetblue;
+}
+.jokeValue{
+    font-size: 1.5rem;
+   font-weight: bolder;
+}
+.btn{
+    
+    font-size: 15px;
+    font-weight: 800;
+    width: 150px;
+    height: 40px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+    background-color: salmon;
+
+}
