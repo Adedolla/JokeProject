@@ -1,5 +1,5 @@
 import axios from 'axios'
-
+import './joke.css'
 import { useEffect, useState } from 'react'
 import { BsCircle } from "react-icons/bs";
 

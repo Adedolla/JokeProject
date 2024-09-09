@@ -1,6 +1,6 @@
 import { useState } from 'react'
+
 import Joke from './joke/Joke.jsx'
-import '../src/joke/joke.css'
 
 
 function App() {
